@@ -17,7 +17,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int size = 5; // размер поля
-        int winLineLength = 3; // длинна выигрышной линии
+        int winLineLength = 4; // длинна выигрышной линии
         String[][] map = createMap(size);
         int [][][] winnerVariants = findWinnerVariants(map, winLineLength);
         // showWinnerVariants(map, winnerVariants);
